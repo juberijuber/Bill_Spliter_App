@@ -5,7 +5,7 @@
 # UI 
 ##
 ## 
-<img src="https://github.com/Rahul-Sharma-Github/bill_splitter_app/assets/64002004/e199c655-b605-4239-93fc-70c21a3d326a" width="393" height="852">
+<img src="https://github.com/juberijuber/Bill_Spliter/blob/main/assets/Screenshot_1717079435.png" width="393" height="852">
 
 ## 
 ## 
