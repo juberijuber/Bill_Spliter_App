@@ -12,7 +12,7 @@ import 'pages/home/home_page.dart';
 void main() {
   runApp(
     DevicePreview(
-      enabled: false,
+      enabled: true,
       tools: const [
         ...DevicePreview.defaultTools,
       ],
