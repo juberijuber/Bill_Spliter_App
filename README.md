@@ -1,8 +1,6 @@
 # Bill Splitter App 
 ### Made it with GetX State Management
-### it's Responsive
-
-# UI 
+### It's Responsive UI 
 ##
 ## 
 <img src="https://github.com/juberijuber/Bill_Spliter/blob/main/assets/Screenshot_1717079435.png" width="393" height="852">
