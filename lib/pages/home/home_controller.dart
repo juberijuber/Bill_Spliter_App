@@ -1,4 +1,3 @@
-// GetX
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -30,7 +29,7 @@ class HomeController extends GetxController {
   // TextEditingController for TotalAmount
   TextEditingController totalAmountController = TextEditingController();
 
-  // Tip Amount
+  // Total Amount
   var totalAmount = '0'.obs;
 
   // Calculations for getting equally divided amount for each friend
@@ -38,7 +37,7 @@ class HomeController extends GetxController {
   String equallyDividedValue() {
     try {
       var preEquallyDivided =
-          (double.parse(totalAmount.value) / 100 * taxAmount.value) +
+          (double.parse(totalAmount.value) * (taxAmount.value / 100)) +
               double.parse(totalAmount.value) +
               double.parse(tipAmount.value);
 

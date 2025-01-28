@@ -1,18 +1,12 @@
 import 'package:flutter/material.dart';
-
-// device preview
 import 'package:device_preview/device_preview.dart';
-
-//GetX
 import 'package:get/get.dart';
-
-// pages
 import 'pages/home/home_page.dart';
 
 void main() {
   runApp(
     DevicePreview(
-      enabled: true,
+      enabled: false,
       tools: const [
         ...DevicePreview.defaultTools,
       ],

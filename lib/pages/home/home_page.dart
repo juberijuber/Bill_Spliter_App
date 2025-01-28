@@ -1,10 +1,5 @@
-// ignore_for_file: avoid_unnecessary_containers
-
 import 'package:flutter/material.dart';
-
-//GetX
 import 'package:get/get.dart';
-
 import '../../models/result_data.dart';
 import '../result/result_page.dart';
 import 'home_controller.dart';
@@ -12,7 +7,7 @@ import 'home_controller.dart';
 class HomePage extends StatelessWidget {
   HomePage({super.key});
 
-  // initializing HomeController
+  // initializing HomeController using getx
   final homeController = Get.put(HomeController());
 
   @override
